@@ -8,7 +8,7 @@
 	if(y == 0) {
 		[d lock];
 		if(![d lockOverride]) {
-			[d setLockOverride:1 orientation:[d lockOrientation]];
+			[d setLockOverride:0 orientation:[d lockOrientation]];
 		}
 	} else {
 		[d unlock];
